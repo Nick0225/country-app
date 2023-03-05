@@ -1,0 +1,296 @@
+{   
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/login/login",
+			"auth": false,
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "登录",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/login/register",
+			"auth": false,
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "注册",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/login/forget",
+			"auth": false,
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "忘记密码",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+			"path": "pages/tabbar/index",
+			"auth": true,
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+            "path" : "pages/tabbar/information",
+			"auth": true,
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": true,
+								"app-plus": {
+								    "pullToRefresh": {
+								            "support": true,
+								            "color": "#3c9cff",
+								            "style": "circle"
+								        }
+										}
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/user",
+			"auth": true,
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的"
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/phoneBook",
+			"auth": true,
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "通讯录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+            "path" : "pages/user/info_details",
+			"auth": true,
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户详情"
+            }
+            
+        }
+        ,{
+            "path" : "pages/passage_details/passage_details",
+			"auth": true,
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/user/exchange_code",
+			"auth": true,
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "积分兑换",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/user/exchange_record",
+			"auth": true,
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "积分明细",
+		        "enablePullDownRefresh": true,
+						"app-plus": {
+						    "pullToRefresh": {
+						            "support": true,
+						            "color": "#3c9cff",
+						            "style": "circle"
+						        }
+								}
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/recordList/recordList",
+			"auth": true,
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "公告列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/publicList/publicList",
+			"auth": true,
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "公益列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/editor_info",
+			"auth": true,
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改用户信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/appUpdate/appUpdate",
+			"auth": true,
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "更新软件",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/credit_cancellation",
+			"auth": true,
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "积分核销",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/business_record",
+			"auth": true,
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "核销记录",
+                "enablePullDownRefresh": true,
+								"app-plus": {
+								    "pullToRefresh": {
+								            "support": true,
+								            "color": "#3c9cff",
+								            "style": "circle"
+								        }
+										}
+            }
+            
+        }
+        ,{
+            "path" : "pages/inform/inform",
+			"auth": true,
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布公告",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/notice/notice",
+			"auth": true,
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布通知",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/NewUserRegister",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新用户注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/service",
+						"auth": true,
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "联系客服",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+				{
+				    "path" : "pages/preview/preview",
+						"auth": true,
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "查看详情",
+				        "enablePullDownRefresh": false
+				    }
+				    
+				}
+        ,{
+            "path" : "pages/verport/verport",
+						"auth": true,
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "信息上报",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "数字乡村",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor":" #1890ff",
+		"borderStyle":"black",
+		"backgroundColor": "#fafafa",
+		"list": [
+			{
+				"text":"首页",
+				"iconPath":"./static/images/tabbar/gongzuotai.png",
+				"selectedIconPath":"./static/images/tabbar/_gongzuotai.png",
+				"pagePath":"pages/tabbar/index"
+			},
+			{
+				"text":"通讯录",
+				"iconPath":"./static/images/tabbar/phonebook.png",
+				"selectedIconPath":"./static/images/tabbar/_phonebook.png",
+				"pagePath":"pages/tabbar/phoneBook"
+			},
+			{
+				"text":"消息",
+				"iconPath":"./static/images/tabbar/xiaoxi.png",
+				"selectedIconPath":"./static/images/tabbar/_xiaoxi.png",
+				"pagePath":"pages/tabbar/information"
+			},
+			{
+				"text":"我的",
+				"iconPath":"./static/images/tabbar/wode-wode.png",
+				"selectedIconPath":"./static/images/tabbar/_wode-wode.png",
+				"pagePath":"pages/tabbar/user"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
